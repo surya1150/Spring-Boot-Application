@@ -1,0 +1,484 @@
+
+  
+  <!DOCTYPE html><html class=""><head resURL="/static/4b868c4e" data-rooturl="" data-resurl="/static/4b868c4e" data-extensions-available="true" data-unit-test="false" data-imagesurl="/static/4b868c4e/images" data-crumb-header="Jenkins-Crumb" data-crumb-value="aac5c77f8b2e28eb5cee11d84844068461163a76dccebd8093dd0afadac9a271">
+    
+    
+
+    <title>spring-boot-casestudy #26 Console [Jenkins]</title><link rel="stylesheet" href="/static/4b868c4e/jsbundles/base-styles-v2.css" type="text/css"><link rel="stylesheet" href="/static/4b868c4e/css/color.css" type="text/css"><link rel="stylesheet" href="/static/4b868c4e/css/responsive-grid.css" type="text/css"><link rel="shortcut icon" href="/static/4b868c4e/favicon.ico" type="image/vnd.microsoft.icon"><link color="black" rel="mask-icon" href="/images/mask-icon.svg"><script src="/static/4b868c4e/scripts/prototype.js" type="text/javascript"></script><script src="/static/4b868c4e/scripts/behavior.js" type="text/javascript"></script><script src='/adjuncts/4b868c4e/org/kohsuke/stapler/bind.js' type='text/javascript'></script><script src="/static/4b868c4e/scripts/yui/yahoo/yahoo-min.js"></script><script src="/static/4b868c4e/scripts/yui/dom/dom-min.js"></script><script src="/static/4b868c4e/scripts/yui/event/event-min.js"></script><script src="/static/4b868c4e/scripts/yui/animation/animation-min.js"></script><script src="/static/4b868c4e/scripts/yui/dragdrop/dragdrop-min.js"></script><script src="/static/4b868c4e/scripts/yui/container/container-min.js"></script><script src="/static/4b868c4e/scripts/yui/connection/connection-min.js"></script><script src="/static/4b868c4e/scripts/yui/datasource/datasource-min.js"></script><script src="/static/4b868c4e/scripts/yui/autocomplete/autocomplete-min.js"></script><script src="/static/4b868c4e/scripts/yui/menu/menu-min.js"></script><script src="/static/4b868c4e/scripts/yui/element/element-min.js"></script><script src="/static/4b868c4e/scripts/yui/button/button-min.js"></script><script src="/static/4b868c4e/scripts/yui/storage/storage-min.js"></script><script src="/static/4b868c4e/scripts/polyfills.js" type="text/javascript"></script><script src="/static/4b868c4e/scripts/hudson-behavior.js" type="text/javascript"></script><script src="/static/4b868c4e/scripts/sortable.js" type="text/javascript"></script><link rel="stylesheet" href="/static/4b868c4e/scripts/yui/container/assets/container.css" type="text/css"><link rel="stylesheet" href="/static/4b868c4e/scripts/yui/container/assets/skins/sam/container.css" type="text/css"><link rel="stylesheet" href="/static/4b868c4e/scripts/yui/menu/assets/skins/sam/menu.css" type="text/css"><link rel="stylesheet" href="/static/4b868c4e/jsbundles/ui-refresh-overrides.css" type="text/css"><link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Jenkins"><meta name="ROBOTS" content="INDEX,NOFOLLOW"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="/static/4b868c4e/jsbundles/vendors.js" type="text/javascript"></script><script src="/static/4b868c4e/jsbundles/page-init.js" type="text/javascript"></script></head><body data-model-type="org.jenkinsci.plugins.workflow.job.WorkflowRun" id="jenkins" class="yui-skin-sam two-column jenkins-2.249.1" data-version="2.249.1"><a href="#skip2content" class="skiplink">Skip to content</a><div id="page-head"><header id="header" class="page-header"><div class="page-header__brand"><div class="logo"><a id="jenkins-home-link" href="/"><img src="/static/4b868c4e/images/jenkins-header-logo-v2.svg" alt="[Jenkins]" id="jenkins-head-icon"><img src="/static/4b868c4e/images/title.png" alt="Jenkins" width="139" id="jenkins-name-icon" height="34"></a></div><a href="/" class="page-header__brand-link"><img src="/static/4b868c4e/images/jenkins-header-logo-v2.svg" alt="[Jenkins]" class="page-header__brand-image"><span class="page-header__brand-name">Jenkins</span></a></div><div class="searchbox hidden-xs"><form role="search" method="get" name="search" action="/job/spring-boot-casestudy/26/search/" style="position:relative;" class="no-json"><div id="search-box-sizer"></div><div id="searchform"><input role="searchbox" name="q" placeholder="search" id="search-box" class="main-search__input has-default-text"><span class="main-search__icon-leading"><svg viewBox="0 0 24 24" aria-hidden="" tooltip="" focusable="false" class="svg-icon "><use href="/static/4b868c4e/images/material-icons/svg-sprite-action-symbol.svg#ic_search_24px"></use></svg></span><a href="https://jenkins.io/redirect/search-box" class="main-search__icon-trailing"><svg viewBox="0 0 24 24" aria-hidden="" tooltip="" focusable="false" class="svg-icon "><use href="/static/4b868c4e/images/material-icons/svg-sprite-action-symbol.svg#ic_help_outline_24px"></use></svg></a><div id="search-box-completion"></div><script>createSearchBox("/job/spring-boot-casestudy/26/search/");</script></div></form></div><div class="login page-header__hyperlinks"><div id="visible-am-insertion" class="page-header__am-wrapper"></div><a href="/user/admin" class="model-link inside inverse"><svg viewBox="0 0 24 24" aria-hidden="" tooltip="" focusable="false" class="svg-icon am-monitor-icon"><use href="/static/4b868c4e/images/material-icons/svg-sprite-social-symbol.svg#ic_person_24px"></use></svg><span class="hidden-xs hidden-sm">jenkins</span></a><a href="/logout"><svg viewBox="0 0 24 24" aria-hidden="" tooltip="" focusable="false" class="svg-icon "><use href="/static/4b868c4e/images/material-icons/svg-sprite-action-symbol.svg#ic_input_24px"></use></svg><span class="hidden-xs hidden-sm">log out</span></a></div></header><div id="breadcrumbBar"><tr id="top-nav"><td id="left-top-nav" colspan="2"><link rel='stylesheet' href='/adjuncts/4b868c4e/lib/layout/breadcrumbs.css' type='text/css' /><script src='/adjuncts/4b868c4e/lib/layout/breadcrumbs.js' type='text/javascript'></script><div class="top-sticker noedge"><div class="top-sticker-inner"><div class="breadcrumbs__wrapper"><ul id="breadcrumbs"><li class="item"><a href="/" class="model-link inside">Jenkins</a></li><li href="/" class="children"></li><li class="item"><a href="/job/spring-boot-casestudy/" class="model-link inside">spring-boot-casestudy</a></li><li href="/job/spring-boot-casestudy/" class="children"></li><li class="item"><a href="/job/spring-boot-casestudy/26/" class="model-link inside">#26</a></li><li class="separator"></li></ul><div id="breadcrumb-menu-target"></div></div></div></div></td></tr></div></div><div id="page-body" class="clear"><div id="side-panel"><div id="tasks"><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/" title="Back to Project" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/up.png" alt="" style="width: 24px; height: 24px; " class="icon-up icon-md"></span><span class="task-link-text">Back to Project</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/" title="Status" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/search.png" alt="" style="width: 24px; height: 24px; " class="icon-workflow-stage icon-md"></span><span class="task-link-text">Status</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/changes" title="Changes" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/notepad.png" alt="" style="width: 24px; height: 24px; " class="icon-notepad icon-md"></span><span class="task-link-text">Changes</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/console" title="Console Output" class="task-link task-link--active"><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/terminal.png" alt="" style="width: 24px; height: 24px; " class="icon-terminal icon-md"></span><span class="task-link-text">Console Output</span></a></span><div class="subtasks"><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/consoleText" title="View as plain text" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/document.png" alt="" style="width: 24px; height: 24px; " class="icon-document icon-md"></span><span class="task-link-text">View as plain text</span></a></span></div></div></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/configure" title="Edit Build Information" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/notepad.png" alt="" style="width: 24px; height: 24px; " class="icon-notepad icon-md"></span><span class="task-link-text">Edit Build Information</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/confirmDelete" title="Delete build ‘#26’" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/edit-delete.png" alt="" style="width: 24px; height: 24px; " class="icon-edit-delete icon-md"></span><span class="task-link-text">Delete build ‘#26’</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/git" title="Git Build Data" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/plugin/git/icons/git-32x32.png" alt="" class=""></span><span class="task-link-text">Git Build Data</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/tagBuild" title="No Tags" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/save.png" alt="" style="width: 24px; height: 24px; " class="icon-save icon-md"></span><span class="task-link-text">No Tags</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/testReport" title="Test Result" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/clipboard.png" alt="" style="width: 24px; height: 24px; " class="icon-clipboard icon-md"></span><span class="task-link-text">Test Result</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/replay" title="Replay" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/redo.png" alt="" style="width: 24px; height: 24px; " class="icon-redo icon-md"></span><span class="task-link-text">Replay</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/flowGraphTable" title="Pipeline Steps" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/gear.png" alt="" style="width: 24px; height: 24px; " class="icon-gear icon-md"></span><span class="task-link-text">Pipeline Steps</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/26/ws" title="Workspaces" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/plugin/cloudbees-folder/images/24x24/folder.png" alt="" style="width: 24px; height: 24px; " class="icon-folder icon-md"></span><span class="task-link-text">Workspaces</span></a></span></div><div class="task "><span class="task-link-wrapper "><a href="/job/spring-boot-casestudy/25/console" title="Previous Build" class="task-link "><span class="task-icon-link"><img src="/static/4b868c4e/images/24x24/previous.png" alt="" style="width: 24px; height: 24px; " class="icon-previous icon-md"></span><span class="task-link-text">Previous Build</span></a></span></div></div></div><div id="main-panel"><a name="skip2content"></a><h1 class="build-caption page-headline"><img src="/static/4b868c4e/images/48x48/blue.png" alt="Success" tooltip="Success" style="width: 48px; height: 48px; " class="icon-blue icon-xlg"><script>
+          (function(){
+            function updateBuildCaptionIcon(){
+              new Ajax.Request("statusIcon",{
+                method: "get",
+                onComplete: function(rsp,_) {
+                  var isBuilding = rsp.getResponseHeader("X-Building");
+                  if (isBuilding == "true") {
+                    setTimeout(updateBuildCaptionIcon, 5000)
+                  } else {
+                    var progressBar = document.querySelector(".build-caption-progress-container");
+                    if (progressBar) {
+                      progressBar.style.display = "none";
+                    }
+                  }
+                  document.querySelector(".build-caption .icon-xlg").outerHTML = rsp.responseText;
+                }
+              });
+            }
+
+            window.addEventListener("load", function(){
+              Event.observe(window, "jenkins:consoleFinished", updateBuildCaptionIcon);
+            });
+
+          })();
+        </script>Console Output</h1><script src='/static/4b868c4e/extensionList/hudson.console.ConsoleAnnotatorFactory/hudson.plugins.timestamper.annotator.TimestampAnnotatorFactory3/script.js'></script><link rel='stylesheet' type='text/css' href='/static/4b868c4e/descriptor/hudson.tasks._ant.AntOutcomeNote/style.css' /><script src='/static/4b868c4e/descriptor/hudson.tasks._ant.AntTargetNote/script.js'></script><script src='/static/4b868c4e/descriptor/hudson.console.ExpandableDetailsNote/script.js'></script><link rel='stylesheet' type='text/css' href='/static/4b868c4e/descriptor/hudson.console.ExpandableDetailsNote/style.css' /><link rel='stylesheet' type='text/css' href='/static/4b868c4e/descriptor/hudson.plugins.gradle.GradleOutcomeNote/style.css' /><script src='/static/4b868c4e/descriptor/hudson.plugins.gradle.GradleTaskNote/script.js'></script><link rel='stylesheet' type='text/css' href='/static/4b868c4e/descriptor/hudson.plugins.gradle.GradleTaskNote/style.css' /><script src='/static/4b868c4e/descriptor/org.jenkinsci.plugins.workflow.job.console.NewNodeConsoleNote/script.js'></script><link rel='stylesheet' type='text/css' href='/static/4b868c4e/descriptor/org.jenkinsci.plugins.workflow.job.console.NewNodeConsoleNote/style.css' /><pre class="console-output">Started by user <a href='/user/surya-1297306' class='model-link'>kotha surya chandra kumar</a>
+Running in Durability level: MAX_SURVIVABILITY
+<span class="pipeline-new-node" nodeId="2" startId="2">[Pipeline] Start of Pipeline
+</span><span class="pipeline-new-node" nodeId="3" startId="3" enclosingId="2">[Pipeline] node
+</span><span class="pipeline-node-3">Running on <a href='/computer/(master)/' class='model-link'>Jenkins</a> in /var/lib/jenkins/workspace/spring-boot-casestudy
+</span><span class="pipeline-new-node" nodeId="4" startId="4" enclosingId="3">[Pipeline] {
+</span><span class="pipeline-new-node" nodeId="5" startId="5" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="6" startId="6" enclosingId="5" label="clean workspace">[Pipeline] { (clean workspace)
+</span><span class="pipeline-new-node" nodeId="7" enclosingId="6">[Pipeline] cleanWs
+</span><span class="pipeline-node-7">[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+</span><span class="pipeline-new-node" nodeId="8" startId="6">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="9" startId="5">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="10" startId="10" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="11" startId="11" enclosingId="10" label="SCM Checkout">[Pipeline] { (SCM Checkout)
+</span><span class="pipeline-new-node" nodeId="12" enclosingId="11">[Pipeline] checkout
+</span><span class="pipeline-node-12">The recommended git tool is: NONE
+using credential github
+Cloning the remote Git repository
+Cloning repository <a href='https://github.com/surya1150/Spring-Boot-Application.git'>https://github.com/surya1150/Spring-Boot-Application.git</a>
+ &gt; git init /var/lib/jenkins/workspace/spring-boot-casestudy # timeout=10
+Fetching upstream changes from <a href='https://github.com/surya1150/Spring-Boot-Application.git'>https://github.com/surya1150/Spring-Boot-Application.git</a>
+ &gt; git --version # timeout=10
+ &gt; git --version # 'git version 2.7.4'
+using GIT_ASKPASS to set credentials login credentials
+ &gt; git fetch --tags --progress <a href='https://github.com/surya1150/Spring-Boot-Application.git'>https://github.com/surya1150/Spring-Boot-Application.git</a> +refs/heads/*:refs/remotes/origin/* # timeout=10
+ &gt; git config remote.origin.url <a href='https://github.com/surya1150/Spring-Boot-Application.git'>https://github.com/surya1150/Spring-Boot-Application.git</a> # timeout=10
+ &gt; git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ &gt; git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5eac70d41245a3bdad76f850b45523e1524a50cf (refs/remotes/origin/master)
+ &gt; git config core.sparsecheckout # timeout=10
+ &gt; git checkout -f 5eac70d41245a3bdad76f850b45523e1524a50cf # timeout=10
+Commit message: "modified to create gcp instance with Ansible"
+ &gt; git rev-list --no-walk 5eac70d41245a3bdad76f850b45523e1524a50cf # timeout=10
+</span><span class="pipeline-new-node" nodeId="13" startId="11">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="14" startId="10">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="15" startId="15" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="16" startId="16" enclosingId="15" label="Build">[Pipeline] { (Build)
+</span><span class="pipeline-new-node" nodeId="17" enclosingId="16">[Pipeline] sh
+</span><span class="pipeline-node-17">+ mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building devops-test-app 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ devops-test-app ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ devops-test-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ devops-test-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /var/lib/jenkins/workspace/spring-boot-casestudy/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ devops-test-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/spring-boot-casestudy/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ devops-test-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/spring-boot-casestudy/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ devops-test-app ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.MessageServiceTest
+04:03:10.163 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+04:03:10.253 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+04:03:10.286 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.MessageServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+04:03:10.311 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.MessageServiceTest], using SpringBootContextLoader
+04:03:10.319 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.MessageServiceTest]: class path resource [com/MessageServiceTest-context.xml] does not exist
+04:03:10.320 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.MessageServiceTest]: class path resource [com/MessageServiceTestContext.groovy] does not exist
+04:03:10.320 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.MessageServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+04:03:10.321 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.MessageServiceTest]: MessageServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+04:03:10.492 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.MessageServiceTest]
+04:03:10.675 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/spring-boot-casestudy/target/classes/com/Application.class]
+04:03:10.695 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.Application for test class com.MessageServiceTest
+04:03:10.864 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.MessageServiceTest]: using defaults.
+04:03:10.864 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+04:03:10.884 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+04:03:10.884 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+04:03:10.885 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@dd0c991, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f16132a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69fb6037, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36d585c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@87a85e1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@671a5887, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5552768b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3c947bc5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@609db43b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55f616cf]
+04:03:10.888 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@f381794 testClass = MessageServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2cdd0d4b testClass = MessageServiceTest, locations = '{}', classes = '{class com.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@45f45fa1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@52e677af, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2aece37d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3d299e3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+04:03:10.940 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.7.RELEASE)
+
+2020-10-03 04:03:11.583  INFO 22299 --- [           main] com.MessageServiceTest                   : Starting MessageServiceTest on devops-bootcamp with PID 22299 (started by jenkins in /var/lib/jenkins/workspace/spring-boot-casestudy)
+2020-10-03 04:03:11.598  INFO 22299 --- [           main] com.MessageServiceTest                   : No active profile set, falling back to default profiles: default
+2020-10-03 04:03:16.270  INFO 22299 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-03 04:03:16.521  INFO 22299 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-03 04:03:16.934  INFO 22299 --- [           main] com.MessageServiceTest                   : Started MessageServiceTest in 5.948 seconds (JVM running for 7.723)
+welcome
+guest
+admin
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.687 s - in com.MessageServiceTest
+[INFO] Running com.CalculatorServiceTest
+2020-10-03 04:03:17.679  INFO 22299 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.CalculatorServiceTest], using SpringBootContextLoader
+2020-10-03 04:03:17.681  INFO 22299 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.CalculatorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-10-03 04:03:17.685  INFO 22299 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.CalculatorServiceTest]: CalculatorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-10-03 04:03:17.700  INFO 22299 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.Application for test class com.CalculatorServiceTest
+2020-10-03 04:03:17.705  INFO 22299 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-10-03 04:03:17.706  INFO 22299 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6fff46bf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1835dc92, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3aaa3c39, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@65a9ea3c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70f68288, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@46911148, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2db1b657, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e351d7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@43c57161, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d902300]
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.CalculatorServiceTest
+2020-10-03 04:03:17.822  INFO 22299 --- [       Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ devops-test-app ---
+[INFO] Building jar: /var/lib/jenkins/workspace/spring-boot-casestudy/target/devops-test-app-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.7.RELEASE:repackage (repackage) @ devops-test-app ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.7.RELEASE:repackage (default) @ devops-test-app ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ devops-test-app ---
+[INFO] Installing /var/lib/jenkins/workspace/spring-boot-casestudy/target/devops-test-app-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/org/devops/devops-test-app/0.0.1-SNAPSHOT/devops-test-app-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/spring-boot-casestudy/pom.xml to /var/lib/jenkins/.m2/repository/org/devops/devops-test-app/0.0.1-SNAPSHOT/devops-test-app-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 20.254 s
+[INFO] Finished at: 2020-10-03T04:03:21+00:00
+[INFO] Final Memory: 37M/286M
+[INFO] ------------------------------------------------------------------------
+</span><span class="pipeline-new-node" nodeId="18" startId="16">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="19" startId="15">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="20" startId="20" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="21" startId="21" enclosingId="20" label="unit testing">[Pipeline] { (unit testing)
+</span><span class="pipeline-new-node" nodeId="22" enclosingId="21">[Pipeline] junit
+</span><span class="pipeline-node-22">Recording test results
+</span><span class="pipeline-new-node" nodeId="23" enclosingId="21">[Pipeline] archiveArtifacts
+</span><span class="pipeline-node-23">Archiving artifacts
+</span><span class="pipeline-new-node" nodeId="24" startId="21">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="25" startId="20">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="26" startId="26" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="27" startId="27" enclosingId="26" label="sonarqube analysis">[Pipeline] { (sonarqube analysis)
+</span><span class="pipeline-new-node" nodeId="28" enclosingId="27">[Pipeline] tool
+</span><span class="pipeline-new-node" nodeId="29" startId="29" enclosingId="27">[Pipeline] withSonarQubeEnv
+</span><span class="pipeline-node-29">Injecting SonarQube environment variables using the configuration: SonarQube_Home
+</span><span class="pipeline-new-node" nodeId="30" startId="30" enclosingId="29">[Pipeline] {
+</span><span class="pipeline-new-node" nodeId="31" enclosingId="30">[Pipeline] sh
+</span><span class="pipeline-node-31">+ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Home/bin/sonar-scanner
+INFO: Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Home/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/lib/jenkins/workspace/spring-boot-casestudy/sonar-project.properties
+INFO: SonarQube Scanner 4.0.0.1744
+INFO: Java 1.8.0_265 Private Build (64-bit)
+INFO: Linux 4.15.0-1084-gcp amd64
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: SonarQube server 8.4.2
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+WARN: SonarScanner will require Java 11 to run starting in SonarQube 8.x
+INFO: Load global settings
+INFO: Load global settings (done) | time=209ms
+INFO: Server id: BF41A1F2-AXTh7cN0ueFkfFPuCsPC
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=123ms
+INFO: Load/download plugins (done) | time=939ms
+INFO: Process project properties
+INFO: Process project properties (done) | time=1ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=18ms
+INFO: Project key: spring-boot-app
+INFO: Base dir: /var/lib/jenkins/workspace/spring-boot-casestudy
+INFO: Working dir: /var/lib/jenkins/workspace/spring-boot-casestudy/.scannerwork
+INFO: Load project settings for component key: 'spring-boot-app'
+INFO: Load project settings for component key: 'spring-boot-app' (done) | time=25ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=167ms
+INFO: Auto-configuring with CI 'Jenkins'
+INFO: Load active rules
+INFO: Load active rules (done) | time=1550ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: 29 files indexed
+INFO: 0 files ignored because of scm ignore settings
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for web: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: ------------- Run sensors on module spring-boot-app
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=31ms
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): none
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property.
+INFO: JavaClasspath initialization (done) | time=45ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=0ms
+INFO: Java Main Files AST scan
+INFO: 5 source files to be analyzed
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=91ms
+INFO: 5/5 source files have been analyzed
+INFO: Java Main Files AST scan (done) | time=2611ms
+INFO: Java Test Files AST scan
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=6ms
+INFO: Java Generated Files AST scan
+INFO: 0 source files to be analyzed
+INFO: 0/0 source files have been analyzed
+INFO: Java Generated Files AST scan (done) | time=2ms
+INFO: Sensor JavaSquidSensor [java] (done) | time=3169ms
+INFO: Sensor SonarCSS Rules [cssfamily]
+INFO: 0/0 source files have been analyzed
+WARN: CSS rules were not executed. Error when running: 'node -v'. Is Node.js available during analysis?
+INFO: Sensor SonarCSS Rules [cssfamily] (done) | time=850ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=5ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/var/lib/jenkins/workspace/spring-boot-casestudy/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=72ms
+INFO: Sensor JavaXmlSensor [java]
+INFO: 3 source files to be analyzed
+INFO: Sensor JavaXmlSensor [java] (done) | time=487ms
+INFO: Sensor HTML [web]
+INFO: 3/3 source files have been analyzed
+INFO: Sensor HTML [web] (done) | time=260ms
+INFO: Sensor XML Sensor [xml]
+INFO: 3 source files to be analyzed
+INFO: 3/3 source files have been analyzed
+INFO: Sensor XML Sensor [xml] (done) | time=395ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=20ms
+INFO: Sensor Java CPD Block Indexer
+INFO: Sensor Java CPD Block Indexer (done) | time=42ms
+INFO: SCM Publisher SCM provider for this project is: git
+INFO: SCM Publisher 3 source files to be analyzed
+INFO: SCM Publisher 0/3 source files have been analyzed (done) | time=86ms
+WARN: Missing blame information for the following files:
+WARN:   * target/surefire-reports/TEST-com.CalculatorServiceTest.xml
+WARN:   * target/classes/static/index.html
+WARN:   * target/surefire-reports/TEST-com.MessageServiceTest.xml
+WARN: This may lead to missing/broken features in SonarQube
+INFO: CPD Executor 1 file had no CPD blocks
+INFO: CPD Executor Calculating CPD for 6 files
+INFO: CPD Executor CPD calculation finished (done) | time=15ms
+INFO: Analysis report generated in 129ms, dir size=139 KB
+INFO: Analysis report compressed in 55ms, zip size=32 KB
+INFO: Analysis report uploaded in 28ms
+INFO: ANALYSIS SUCCESSFUL, you can browse <a href='http://35.238.211.195:9000/dashboard?id=spring-boot-app'>http://35.238.211.195:9000/dashboard?id=spring-boot-app</a>
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at <a href='http://35.238.211.195:9000/api/ce/task?id=AXTsoS2-ueFkfFPuCw5D'>http://35.238.211.195:9000/api/ce/task?id=AXTsoS2-ueFkfFPuCw5D</a>
+INFO: Analysis total time: 14.531 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 17.903s
+INFO: Final Memory: 22M/255M
+INFO: ------------------------------------------------------------------------
+</span><span class="pipeline-new-node" nodeId="32" startId="30">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="33" startId="29">[Pipeline] // withSonarQubeEnv
+</span><span class="pipeline-new-node" nodeId="34" startId="27">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="35" startId="26">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="36" startId="36" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="37" startId="37" enclosingId="36" label="create instance from playbook">[Pipeline] { (create instance from playbook)
+</span><span class="pipeline-new-node" nodeId="38" enclosingId="37">[Pipeline] sh
+</span><span class="pipeline-node-38">+ pwd
+/var/lib/jenkins/workspace/spring-boot-casestudy
+</span><span class="pipeline-new-node" nodeId="39" enclosingId="37">[Pipeline] sh
+</span><span class="pipeline-node-39">+ ls -ltr
+total 32
+drwxr-xr-x 4 jenkins jenkins 4096 Oct  3 04:02 src
+-rw-r--r-- 1 jenkins jenkins  128 Oct  3 04:02 sonar-project.properties
+-rw-r--r-- 1 jenkins jenkins 2322 Oct  3 04:02 service-cred.json
+-rw-r--r-- 1 jenkins jenkins   64 Oct  3 04:02 README.md
+-rw-r--r-- 1 jenkins jenkins 1993 Oct  3 04:02 pom.xml
+-rw-r--r-- 1 jenkins jenkins  214 Oct  3 04:02 Dockerfile
+-rw-r--r-- 1 jenkins jenkins 1963 Oct  3 04:02 ansible-create-instance-gcp.yaml
+drwxr-xr-x 9 jenkins jenkins 4096 Oct  3 04:03 target
+</span><span class="pipeline-new-node" nodeId="40" enclosingId="37">[Pipeline] sh
+</span><span class="pipeline-node-40">+ ansible-playbook ansible-create-instance-gcp.yaml --private-key=service-cred.json
+
+PLAY [Deploy gcp vm] ***********************************************************
+
+TASK [create a disk] ***********************************************************
+changed: [localhost]
+
+TASK [create a network] ********************************************************
+ok: [localhost]
+
+TASK [create a address] ********************************************************
+ok: [localhost]
+
+TASK [create a instance] *******************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=4    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+</span><span class="pipeline-new-node" nodeId="41" startId="37">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="42" startId="36">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="43" startId="43" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="44" startId="44" enclosingId="43" label="docker image build">[Pipeline] { (docker image build)
+</span><span class="pipeline-new-node" nodeId="45" enclosingId="44">[Pipeline] sh
+</span><span class="pipeline-node-45">+ sudo docker build -t spring-boot-app .
+Sending build context to Docker daemon  45.16MB
+Step 1/6 : FROM tomcat:8
+ ---&gt; d5ef56581444
+Step 2/6 : EXPOSE 8082
+ ---&gt; Using cache
+ ---&gt; dae2eb080f4b
+Step 3/6 : EXPOSE 8080
+ ---&gt; Using cache
+ ---&gt; 992cb3ef8b1d
+Step 4/6 : ARG JAR_FILE=/target/*.jar
+ ---&gt; Using cache
+ ---&gt; 59d32199e07f
+Step 5/6 : COPY ${JAR_FILE} app.jar
+ ---&gt; 253c6124d0b9
+Step 6/6 : ENTRYPOINT ["java", "-jar", "app.jar"]
+ ---&gt; Running in 9f9fc9b932ae
+Removing intermediate container 9f9fc9b932ae
+ ---&gt; 6c710800d704
+Successfully built 6c710800d704
+Successfully tagged spring-boot-app:latest
+</span><span class="pipeline-new-node" nodeId="46" startId="46" enclosingId="44">[Pipeline] withCredentials
+</span><span class="pipeline-node-46">Masking supported pattern matches of $login or $password
+</span><span class="pipeline-new-node" nodeId="47" startId="47" enclosingId="46">[Pipeline] {
+</span><span class="pipeline-new-node" nodeId="48" enclosingId="47">[Pipeline] sh
+</span><span class="pipeline-node-48">+ sudo docker login -u **** -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/lib/jenkins/.docker/config.json.
+Configure a credential helper to remove this warning. See
+<a href='https://docs.docker.com/engine/reference/commandline/login/#credentials-store'>https://docs.docker.com/engine/reference/commandline/login/#credentials-store</a>
+
+Login Succeeded
+</span><span class="pipeline-new-node" nodeId="49" startId="47">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="50" startId="46">[Pipeline] // withCredentials
+</span><span class="pipeline-new-node" nodeId="51" startId="44">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="52" startId="43">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="53" startId="53" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="54" startId="54" enclosingId="53" label="push image into docker registry">[Pipeline] { (push image into docker registry)
+</span><span class="pipeline-new-node" nodeId="55" enclosingId="54">[Pipeline] sh
+</span><span class="pipeline-node-55">+ sudo docker tag spring-boot-app:latest surya1150/bootcamp:spring-boot-app
+</span><span class="pipeline-new-node" nodeId="56" enclosingId="54">[Pipeline] sh
+</span><span class="pipeline-node-56">+ sudo docker push surya1150/bootcamp:spring-boot-app
+The push refers to repository [docker.io/surya1150/bootcamp]
+0126b0b8a96b: Preparing
+430b9b73d83e: Preparing
+a5118c5dbc40: Preparing
+9fc6b20516ec: Preparing
+51d097727c82: Preparing
+c796c6412c66: Preparing
+df95ed2a791d: Preparing
+17bdf5e22660: Preparing
+d37096232ed8: Preparing
+6add0d2b5482: Preparing
+4ef54afed780: Preparing
+c796c6412c66: Waiting
+df95ed2a791d: Waiting
+17bdf5e22660: Waiting
+d37096232ed8: Waiting
+6add0d2b5482: Waiting
+4ef54afed780: Waiting
+a5118c5dbc40: Layer already exists
+9fc6b20516ec: Layer already exists
+430b9b73d83e: Layer already exists
+51d097727c82: Layer already exists
+c796c6412c66: Layer already exists
+df95ed2a791d: Layer already exists
+17bdf5e22660: Layer already exists
+d37096232ed8: Layer already exists
+6add0d2b5482: Layer already exists
+4ef54afed780: Layer already exists
+0126b0b8a96b: Pushed
+spring-boot-app: digest: sha256:21e820536a4ffa1696bceaa50d60d9d03678e5711740eba3991603fabae7b0b7 size: 2633
+</span><span class="pipeline-new-node" nodeId="57" startId="54">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="58" startId="53">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="59" startId="59" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="60" startId="60" enclosingId="59" label="pull image">[Pipeline] { (pull image)
+</span><span class="pipeline-new-node" nodeId="61" enclosingId="60">[Pipeline] sh
+</span><span class="pipeline-node-61">+ sudo docker pull surya1150/bootcamp:spring-boot-app
+spring-boot-app: Pulling from surya1150/bootcamp
+Digest: sha256:21e820536a4ffa1696bceaa50d60d9d03678e5711740eba3991603fabae7b0b7
+Status: Image is up to date for surya1150/bootcamp:spring-boot-app
+docker.io/surya1150/bootcamp:spring-boot-app
+</span><span class="pipeline-new-node" nodeId="62" startId="60">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="63" startId="59">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="64" startId="64" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="65" startId="65" enclosingId="64" label="Create container in GCP INSTANCE">[Pipeline] { (Create container in GCP INSTANCE)
+</span><span class="pipeline-new-node" nodeId="66" enclosingId="65">[Pipeline] sh
+</span><span class="pipeline-node-66">+ sudo docker run -d --name=spring-boot-app-casestudy -p 8084:8080 surya1150/bootcamp:spring-boot-app
+c6395577c1fc225c5912c4fcb82f7c773cafd2604672ad9fa453786bbfc29247
+</span><span class="pipeline-new-node" nodeId="67" startId="65">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="68" startId="64">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="69" startId="69" enclosingId="4">[Pipeline] stage
+</span><span class="pipeline-new-node" nodeId="70" startId="70" enclosingId="69" label="notification">[Pipeline] { (notification)
+</span><span class="pipeline-new-node" nodeId="71" enclosingId="70">[Pipeline] emailext
+</span><span class="pipeline-node-71">messageContentType = text/plain; charset=UTF-8
+Adding recipients from project recipient list
+Analyzing: suryachandrakumar5@gmail.com
+Looking for: suryachandrakumar5@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: suryachandrakumar5@gmail.com
+	=&gt; found type: 0
+Analyzing: suryachandrakumar5@gmail.com
+Looking for: suryachandrakumar5@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: suryachandrakumar5@gmail.com
+	=&gt; found type: 0
+Analyzing: suryachandrakumar5@gmail.com
+Looking for: suryachandrakumar5@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: suryachandrakumar5@gmail.com
+	=&gt; found type: 0
+Adding recipients from trigger recipient list
+Successfully created MimeMessage
+Sending email to: suryachandrakumar5@gmail.com
+</span><span class="pipeline-new-node" nodeId="72" startId="70">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="73" startId="69">[Pipeline] // stage
+</span><span class="pipeline-new-node" nodeId="74" startId="4">[Pipeline] }
+</span><span class="pipeline-new-node" nodeId="75" startId="3">[Pipeline] // node
+</span><span class="pipeline-new-node" nodeId="76" startId="2">[Pipeline] End of Pipeline
+</span>Finished: SUCCESS
+</pre></div></div><footer class="page-footer"><div class="container-fluid"><div class="page-footer__flex-row"><div class="page-footer__footer-id-placeholder" id="footer"></div><div class="page-footer__links rest_api hidden-xs"><a href="api/">REST API</a></div><div class="page-footer__links page-footer__links--white jenkins_ver"><a href="https://jenkins.io/" target="_blank">Jenkins 2.249.1</a></div></div><link rel='stylesheet' href='/adjuncts/4b868c4e/jenkins/management/AdministrativeMonitorsDecorator/resources.css' type='text/css' /><script src='/adjuncts/4b868c4e/jenkins/management/AdministrativeMonitorsDecorator/resources.js' type='text/javascript'></script><div id="visible-am-container"><a onclick="toggleVisibleAmList(event)" id="visible-am-button" href="#" title="There are 1 active administrative monitors."><svg viewBox="0 0 24 24" aria-hidden="" tooltip="" focusable="false" class="svg-icon "><use href="/static/4b868c4e/images/material-icons/svg-sprite-social-symbol.svg#ic_notifications_24px"></use></svg><span class="am-monitor__count">1</span></a><div id="visible-am-list"><div class="am-message"><div class="alert alert-warning"><form method="post" name="hudsonHomeIsFull" action="/administrativeMonitor/hudsonHomeIsFull/act"><input name="yes" type="submit" value="Tell me more" class="submit-button primary "><input name="no" type="submit" value="Dismiss" class="submit-button primary "></form>
+  Your Jenkins data directory <code>/var/lib/jenkins</code> (AKA <code>JENKINS_HOME</code>) is almost full. You should act on it before it gets completely full.
+</div></div><p style="text-align: center; margin: 10px 0 0 0;"><a onclick="document.location.href='/manage';" href="/manage">Manage Jenkins</a></div></div><script type="text/javascript">
+            (function() {
+                var amContainer = document.getElementById("visible-am-container");
+                var amInsertion = document.getElementById("visible-am-insertion");
+
+                if (amInsertion) {
+                    amInsertion.appendChild(amContainer);
+                }
+            })();
+        </script></div></footer><script async="true" src="/static/4b868c4e/scripts/svgxuse.min.js" type="text/javascript"></script></body></html>
